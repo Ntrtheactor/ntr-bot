@@ -1,0 +1,236 @@
+{
+  "MS Dhoni": {
+    "Captain": 95,
+    "WK": 99,
+    "Finisher": 98,
+    "Fielder": 87
+  },
+
+  "Virat Kohli": {
+    "Captain": 92,
+    "Top Batsman": 99,
+    "Fielder": 91
+  },
+
+  "Rohit Sharma": {
+    "Captain": 94,
+    "Top Batsman": 97
+  },
+
+  "Suryakumar Yadav": {
+    "Middle Order": 98,
+    "Finisher": 91
+  },
+
+  "Hardik Pandya": {
+    "All Rounder": 97,
+    "Finisher": 93,
+    "Fielder": 88
+  },
+
+  "Ravindra Jadeja": {
+    "All Rounder": 98,
+    "Spinner": 92,
+    "Fielder": 97
+  },
+
+  "Jasprit Bumrah": {
+    "Pacer": 99,
+    "Captain": 94
+  },
+
+  "Rashid Khan": {
+    "Spinner": 99,
+    "All Rounder": 91,
+    "Middle Order": 86
+  },
+
+  "Andre Russell": {
+    "Finisher": 99,
+    "All Rounder": 96
+  },
+
+  "AB de Villiers": {
+    "WK": 94,
+    "Finisher": 97,
+    "Top Batsman": 96
+  },
+
+  "KL Rahul": {
+    "WK": 93,
+    "Top Batsman": 94
+  },
+
+  "Ruturaj Gaikwad": {
+    "Top Batsman": 93
+  },
+
+  "Shubman Gill": {
+    "Top Batsman": 97
+  },
+
+  "David Warner": {
+    "Top Batsman": 96
+  },
+
+  "Travis Head": {
+    "Top Batsman": 95
+  },
+
+  "Nicholas Pooran": {
+    "Middle Order": 97,
+    "Finisher": 95
+  },
+
+  "Rinku Singh": {
+    "Finisher": 96
+  },
+
+  "Sanju Samson": {
+    "WK": 92,
+    "Top Batsman": 90
+  },
+
+  "Jos Buttler": {
+    "WK": 97,
+    "Top Batsman": 98
+  },
+
+  "Phil Salt": {
+    "WK": 94,
+    "Top Batsman": 91
+  },
+
+  "Pat Cummins": {
+    "Captain": 91,
+    "Pacer": 94
+  },
+
+  "Mohammed Shami": {
+    "Pacer": 95
+  },
+
+  "Mitchell Starc": {
+    "Pacer": 97
+  },
+
+  "Lasith Malinga": {
+    "Pacer": 98
+  },
+
+  "Noor Ahmad": {
+    "Spinner": 93
+  },
+
+  "Kuldeep Yadav": {
+    "Spinner": 95
+  },
+
+  "Yuzvendra Chahal": {
+    "Spinner": 94
+  },
+
+  "Sunil Narine": {
+    "Spinner": 97,
+    "All Rounder": 92
+  },
+
+  "Glenn Maxwell": {
+    "All Rounder": 93,
+    "Fielder": 95
+  },
+
+  "Ben Stokes": {
+    "All Rounder": 96
+  },
+
+  "Kieron Pollard": {
+    "Finisher": 95,
+    "Fielder": 96
+  },
+
+  "Faf du Plessis": {
+    "Top Batsman": 92,
+    "Fielder": 93
+  },
+
+  "Ishan Kishan": {
+    "WK": 91
+  },
+
+  "Dinesh Karthik": {
+    "WK": 90,
+    "Finisher": 91
+  },
+
+  "Rahul Tripathi": {
+    "Middle Order": 88
+  },
+
+  "Tilak Varma": {
+    "Middle Order": 92
+  },
+
+  "Shreyas Iyer": {
+    "Middle Order": 94,
+    "Captain": 89
+  },
+
+  "Axar Patel": {
+    "All Rounder": 91,
+    "Spinner": 88
+  },
+
+  "Bhuvneshwar Kumar": {
+    "Pacer": 91
+  },
+
+  "Arshdeep Singh": {
+    "Pacer": 89
+  },
+
+  "Deepak Chahar": {
+    "Pacer": 88
+  },
+
+  "Avesh Khan": {
+    "Pacer": 84
+  },
+
+  "Harshal Patel": {
+    "Pacer": 87
+  },
+
+  "Washington Sundar": {
+    "All Rounder": 86,
+    "Spinner": 85
+  },
+
+  "Sai Sudharsan": {
+    "Top Batsman": 90
+  },
+
+  "Heinrich Klaasen": {
+    "WK": 96,
+    "Finisher": 94
+  },
+
+  "Quinton de Kock": {
+    "WK": 95,
+    "Top Batsman": 93
+  },
+
+  "Marcus Stoinis": {
+    "All Rounder": 90,
+    "Finisher": 89
+  },
+
+  "Cameron Green": {
+    "All Rounder": 92
+  },
+
+  "Devon Conway": {
+    "Top Batsman": 91,
+    "WK": 87
+  }
+}
