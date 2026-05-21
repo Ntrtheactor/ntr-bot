@@ -444,6 +444,64 @@ async def button_click(update: Update, context: ContextTypes.DEFAULT_TYPE):
             caption=text,
             reply_markup=reply_markup
         )
+    elif query.data.startswith("role_"):
+
+        chat_id = query.message.chat.id
+
+        role = query.data.replace(
+            "role_",
+            ""
+        )
+
+        player_name = games[chat_id][
+            "current_player"
+        ]
+
+        turn = games[chat_id]["turn"]
+
+        if turn == player1:
+
+            games[chat_id]["team1"][
+                role
+            ] = player_name
+
+            games[chat_id]["turn"] = player2
+
+        else:
+
+            games[chat_id]["team2"][
+                role
+            ] = player_name
+
+            games[chat_id]["turn"] = player1
+
+        draft_text = build_draft_text(
+            chat_id
+        )
+
+        text = (
+            f"{draft_text}\n\n"
+            f"✅ {player_name} added to "
+            f"{role}"
+        )
+
+        keyboard = [
+            [
+                InlineKeyboardButton(
+                    "🎴 Draw Player",
+                    callback_data="draw_player"
+                )
+            ]
+        ]
+
+        reply_markup = InlineKeyboardMarkup(
+            keyboard
+        )
+
+        await query.message.edit_caption(
+            caption=text,
+            reply_markup=reply_markup
+        )
 
 
 async def player(update: Update, context: ContextTypes.DEFAULT_TYPE):
