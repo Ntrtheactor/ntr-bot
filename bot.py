@@ -14,8 +14,22 @@ from telegram.ext import (
 import sqlite3
 import json
 import random
+from flask import Flask
+from threading import Thread
 
 BOT_TOKEN = "8940510632:AAEjHPDWfZFx8KzeQ7nFh0oRpg-WYaYGuo0"
+
+app_web = Flask('')
+
+@app_web.route('/')
+def home():
+    return "Bot is running!"
+
+def run():
+    app_web.run(host='0.0.0.0', port=10000)
+
+t = Thread(target=run)
+t.start()
 
 games = {}
 
