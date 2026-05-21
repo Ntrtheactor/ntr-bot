@@ -33,7 +33,10 @@ t.start()
 
 games = {}
 
-conn = sqlite3.connect("showdown.db")
+conn = sqlite3.connect(
+    "showdown.db",
+    check_same_thread=False
+)
 
 cursor = conn.cursor()
 
@@ -47,15 +50,13 @@ CREATE TABLE IF NOT EXISTS users (
 
 conn.commit()
 
-conn.commit()
-
 with open("players.json", "r") as file:
     players = json.load(file)
+
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     name = update.effective_user.first_name
-
     username = update.effective_user.username
 
     cursor.execute(
@@ -82,7 +83,6 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 async def profile(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     name = update.effective_user.first_name
-
     username = update.effective_user.username
 
     cursor.execute(
@@ -122,16 +122,28 @@ async def rankings(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     keyboard = [
         [
-            InlineKeyboardButton("🌍 Global", callback_data="global_rank")
+            InlineKeyboardButton(
+                "🌍 Global",
+                callback_data="global_rank"
+            )
         ],
         [
-            InlineKeyboardButton("📅 Daily", callback_data="daily_rank")
+            InlineKeyboardButton(
+                "📅 Daily",
+                callback_data="daily_rank"
+            )
         ],
         [
-            InlineKeyboardButton("📆 Weekly", callback_data="weekly_rank")
+            InlineKeyboardButton(
+                "📆 Weekly",
+                callback_data="weekly_rank"
+            )
         ],
         [
-            InlineKeyboardButton("🏆 Overall", callback_data="overall_rank")
+            InlineKeyboardButton(
+                "🏆 Overall",
+                callback_data="overall_rank"
+            )
         ]
     ]
 
@@ -156,6 +168,8 @@ async def challengeipl(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
         "turn": None,
 
+        "used_players": [],
+
         "teams": {
 
             user: {
@@ -170,9 +184,7 @@ async def challengeipl(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 "Spinner": None,
                 "Fielder": None
             }
-        },
-
-        "ready": []
+        }
     }
 
     keyboard = [
@@ -201,14 +213,13 @@ async def challengeipl(update: Update, context: ContextTypes.DEFAULT_TYPE):
             reply_markup=reply_markup
         )
 
+
 def build_draft_text(chat_id):
 
     game = games[chat_id]
 
     p1 = game["player1"]
-
     p2 = game["player2"]
-
     turn = game["turn"]
 
     text = f"🏏 DRAFTING PHASE\n\n"
@@ -233,11 +244,12 @@ def build_draft_text(chat_id):
 
         text += f"• {role} : {player}\n"
 
-    text += f"\n━━━━━━━━━━━━━━\n\n"
+    text += "\n━━━━━━━━━━━━━━\n\n"
 
     text += f"🎯 TURN : {turn}"
 
     return text
+
 
 async def button_click(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
@@ -292,7 +304,9 @@ async def button_click(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
         text = query.message.caption
 
-        creator_name = text.split("User: ")[1].split("\n")[0]
+        creator_name = text.split(
+            "User: "
+        )[1].split("\n")[0]
 
         if join_user == creator_name:
 
@@ -301,53 +315,50 @@ async def button_click(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 show_alert=True
             )
 
-        else:
+            return
 
-            chat_id = query.message.chat.id
+        chat_id = query.message.chat.id
 
-            games[chat_id]["player2"] = join_user
+        games[chat_id]["player2"] = join_user
 
-            games[chat_id]["teams"][join_user] = {
+        games[chat_id]["teams"][join_user] = {
 
-                "Captain": None,
-                "WK": None,
-                "Top": None,
-                "Middle": None,
-                "All Rounder": None,
-                "Finisher": None,
-                "Pacer": None,
-                "Spinner": None,
-                "Fielder": None
-            }
+            "Captain": None,
+            "WK": None,
+            "Top": None,
+            "Middle": None,
+            "All Rounder": None,
+            "Finisher": None,
+            "Pacer": None,
+            "Spinner": None,
+            "Fielder": None
+        }
 
-            games[chat_id]["turn"] = random.choice([
+        games[chat_id]["turn"] = random.choice([
+            games[chat_id]["player1"],
+            games[chat_id]["player2"]
+        ])
 
-                games[chat_id]["player1"],
-                games[chat_id]["player2"]
+        draft_text = build_draft_text(chat_id)
 
-            ])
-
-            draft_text = build_draft_text(chat_id)
-
-            keyboard = [
-                [
-                    InlineKeyboardButton(
-                        "🎲 Draw Player",
-                        callback_data="draw_player"
-                    )
-                ]
+        keyboard = [
+            [
+                InlineKeyboardButton(
+                    "🎲 Draw Player",
+                    callback_data="draw_player"
+                )
             ]
+        ]
 
-            reply_markup = InlineKeyboardMarkup(keyboard)   
+        reply_markup = InlineKeyboardMarkup(keyboard)
 
-            await query.message.edit_caption(
-                caption=draft_text,
-                reply_markup=reply_markup
-            )
-            
+        await query.message.edit_caption(
+            caption=draft_text,
+            reply_markup=reply_markup
+        )
+
     elif query.data == "draw_player":
-        
-        
+
         chat_id = query.message.chat.id
 
         turn = games[chat_id]["turn"]
@@ -356,15 +367,48 @@ async def button_click(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
         if click_user != turn:
 
+           await query.answer(
+                f"⏳ TURN PASSED\n\n🎯 Wait for {turn}'s turn",
+        show_alert=True
+           )
+
+            return
+
+        available_players = [
+
+            p for p in players.keys()
+
+            if p not in games[chat_id]["used_players"]
+        ]
+        current_team = games[chat_id]["teams"][turn]
+
+        all_filled = all(
+            value is not None
+            for value in current_team.values()
+        )
+
+        if all_filled:
+
             await query.answer(
-                "❌ Not Your Turn",
+                "✅ All slots already filled!",
                 show_alert=True
+            )
+
+            return
+        if len(available_players) == 0:
+
+            await query.message.reply_text(
+                "❌ No Players Left"
             )
 
             return
 
         player_name = random.choice(
-            list(players.keys())
+            available_players
+        )
+
+        games[chat_id]["used_players"].append(
+            player_name
         )
 
         games[chat_id]["current_player"] = player_name
@@ -378,65 +422,32 @@ async def button_click(update: Update, context: ContextTypes.DEFAULT_TYPE):
             f"🏏 {player_name}"
         )
 
-        keyboard = [
+        keyboard = []
 
-            [
-                InlineKeyboardButton(
-                    "👑 Captain",
-                    callback_data="role_Captain"
-                ),
-
-                InlineKeyboardButton(
-                    "🧤 WK",
-                    callback_data="role_WK"
-                )
-            ],
-
-            [
-                InlineKeyboardButton(
-                    "🔥 Top",
-                    callback_data="role_Top"
-                ),
-
-                InlineKeyboardButton(
-                    "⚡ Middle",
-                    callback_data="role_Middle"
-                )
-            ],
-
-            [
-                InlineKeyboardButton(
-                    "🎯 All Rounder",
-                    callback_data="role_All Rounder"
-                )
-            ],
-
-            [
-                InlineKeyboardButton(
-                    "💥 Finisher",
-                    callback_data="role_Finisher"
-                )
-            ],
-
-            [
-                InlineKeyboardButton(
-                    "🚀 Pacer",
-                    callback_data="role_Pacer"
-                ),
-
-                InlineKeyboardButton(
-                    "🌀 Spinner",
-                    callback_data="role_Spinner"
-                )
-            ],
-
-            [
-                InlineKeyboardButton(
-                    "🛡 Fielder",
-                    callback_data="role_Fielder"
-                )
-            ]
+        roles = [
+            ("👑 Captain", "Captain"),
+            ("🧤 WK", "WK"),
+            ("🔥 Top", "Top"),
+            ("⚡ Middle", "Middle"),
+            ("🎯 All Rounder", "All Rounder"),
+            ("💥 Finisher", "Finisher"),
+            ("🚀 Pacer", "Pacer"),
+            ("🌀 Spinner", "Spinner"),
+            ("🛡 Fielder", "Fielder")
         ]
+
+        current_team = games[chat_id]["teams"][turn]
+
+        for text_btn, role_name in roles:
+
+            if current_team[role_name] is None:
+
+                keyboard.append([
+                    InlineKeyboardButton(
+                        text_btn,
+                        callback_data=f"role_{role_name}"
+                    )
+                ])
 
         reply_markup = InlineKeyboardMarkup(keyboard)
 
@@ -444,6 +455,7 @@ async def button_click(update: Update, context: ContextTypes.DEFAULT_TYPE):
             caption=text,
             reply_markup=reply_markup
         )
+
     elif query.data.startswith("role_"):
 
         chat_id = query.message.chat.id
@@ -459,36 +471,40 @@ async def button_click(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
         turn = games[chat_id]["turn"]
 
-        if turn == player1:
+        if games[chat_id]["teams"][turn][role] is not None:
 
-            games[chat_id]["team1"][
-                role
-            ] = player_name
+            await query.answer(
+                "❌ Role already filled",
+                show_alert=True
+            )
 
-            games[chat_id]["turn"] = player2
+            return
+
+        games[chat_id]["teams"][turn][role] = player_name
+
+        if turn == games[chat_id]["player1"]:
+
+            games[chat_id]["turn"] = games[
+                chat_id
+            ]["player2"]
 
         else:
 
-            games[chat_id]["team2"][
-                role
-            ] = player_name
+            games[chat_id]["turn"] = games[
+                chat_id
+            ]["player1"]
 
-            games[chat_id]["turn"] = player1
-
-        draft_text = build_draft_text(
-            chat_id
-        )
+        draft_text = build_draft_text(chat_id)
 
         text = (
             f"{draft_text}\n\n"
-            f"✅ {player_name} added to "
-            f"{role}"
+            f"✅ {player_name} added to {role}"
         )
 
         keyboard = [
             [
                 InlineKeyboardButton(
-                    "🎴 Draw Player",
+                    "🎲 Draw Player",
                     callback_data="draw_player"
                 )
             ]
@@ -506,7 +522,9 @@ async def button_click(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 async def player(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
-    player_name = random.choice(list(players.keys()))
+    player_name = random.choice(
+        list(players.keys())
+    )
 
     roles = players[player_name]
 
@@ -518,6 +536,7 @@ async def player(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     await update.message.reply_text(text)
 
+
 app = ApplicationBuilder().token(BOT_TOKEN).build()
 
 app.add_handler(CommandHandler("start", start))
@@ -526,6 +545,8 @@ app.add_handler(CommandHandler("rankings", rankings))
 app.add_handler(CommandHandler("challengeipl", challengeipl))
 app.add_handler(CommandHandler("player", player))
 
-app.add_handler(CallbackQueryHandler(button_click))
+app.add_handler(
+    CallbackQueryHandler(button_click)
+)
 
 app.run_polling()

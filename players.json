@@ -1,236 +1,2276 @@
 {
-  "MS Dhoni": {
-    "Captain": 95,
-    "WK": 99,
-    "Finisher": 98,
-    "Fielder": 87
-  },
-
-  "Virat Kohli": {
-    "Captain": 92,
-    "Top Batsman": 99,
-    "Fielder": 91
-  },
-
-  "Rohit Sharma": {
-    "Captain": 94,
-    "Top Batsman": 97
-  },
-
-  "Suryakumar Yadav": {
-    "Middle Order": 98,
-    "Finisher": 91
-  },
-
   "Hardik Pandya": {
-    "All Rounder": 97,
-    "Finisher": 93,
-    "Fielder": 88
+    "rarity": "rare",
+    "Captain": 90,
+    "WK": 0,
+    "Top": 66,
+    "Middle": 91,
+    "All Rounder": 98,
+    "Finisher": 95,
+    "Pacer": 78,
+    "Spinner": 0,
+    "Fielder": 90
   },
 
   "Ravindra Jadeja": {
+    "rarity": "rare",
+    "Captain": 68,
+    "WK": 0,
+    "Top": 44,
+    "Middle": 80,
     "All Rounder": 98,
-    "Spinner": 92,
-    "Fielder": 97
-  },
-
-  "Jasprit Bumrah": {
-    "Pacer": 99,
-    "Captain": 94
-  },
-
-  "Rashid Khan": {
-    "Spinner": 99,
-    "All Rounder": 91,
-    "Middle Order": 86
-  },
-
-  "Andre Russell": {
-    "Finisher": 99,
-    "All Rounder": 96
-  },
-
-  "AB de Villiers": {
-    "WK": 94,
-    "Finisher": 97,
-    "Top Batsman": 96
+    "Finisher": 83,
+    "Pacer": 0,
+    "Spinner": 94,
+    "Fielder": 99
   },
 
   "KL Rahul": {
+    "rarity": "rare",
+    "Captain": 84,
     "WK": 93,
-    "Top Batsman": 94
-  },
-
-  "Ruturaj Gaikwad": {
-    "Top Batsman": 93
+    "Top": 95,
+    "Middle": 87,
+    "All Rounder": 2,
+    "Finisher": 72,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 81
   },
 
   "Shubman Gill": {
-    "Top Batsman": 97
+    "rarity": "rare",
+    "Captain": 76,
+    "WK": 0,
+    "Top": 97,
+    "Middle": 82,
+    "All Rounder": 2,
+    "Finisher": 72,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 86
   },
 
-  "David Warner": {
-    "Top Batsman": 96
-  },
-
-  "Travis Head": {
-    "Top Batsman": 95
-  },
-
-  "Nicholas Pooran": {
-    "Middle Order": 97,
-    "Finisher": 95
-  },
-
-  "Rinku Singh": {
-    "Finisher": 96
-  },
-
-  "Sanju Samson": {
-    "WK": 92,
-    "Top Batsman": 90
-  },
-
-  "Jos Buttler": {
-    "WK": 97,
-    "Top Batsman": 98
-  },
-
-  "Phil Salt": {
-    "WK": 94,
-    "Top Batsman": 91
-  },
-
-  "Pat Cummins": {
-    "Captain": 91,
-    "Pacer": 94
-  },
-
-  "Mohammed Shami": {
-    "Pacer": 95
-  },
-
-  "Mitchell Starc": {
-    "Pacer": 97
-  },
-
-  "Lasith Malinga": {
-    "Pacer": 98
-  },
-
-  "Noor Ahmad": {
-    "Spinner": 93
-  },
-
-  "Kuldeep Yadav": {
-    "Spinner": 95
-  },
-
-  "Yuzvendra Chahal": {
-    "Spinner": 94
-  },
-
-  "Sunil Narine": {
-    "Spinner": 97,
-    "All Rounder": 92
-  },
-
-  "Glenn Maxwell": {
-    "All Rounder": 93,
-    "Fielder": 95
-  },
-
-  "Ben Stokes": {
-    "All Rounder": 96
-  },
-
-  "Kieron Pollard": {
-    "Finisher": 95,
-    "Fielder": 96
-  },
-
-  "Faf du Plessis": {
-    "Top Batsman": 92,
-    "Fielder": 93
-  },
-
-  "Ishan Kishan": {
-    "WK": 91
-  },
-
-  "Dinesh Karthik": {
-    "WK": 90,
-    "Finisher": 91
-  },
-
-  "Rahul Tripathi": {
-    "Middle Order": 88
+  "Ruturaj Gaikwad": {
+    "rarity": "rare",
+    "Captain": 74,
+    "WK": 0,
+    "Top": 95,
+    "Middle": 76,
+    "All Rounder": 2,
+    "Finisher": 64,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 84
   },
 
   "Tilak Varma": {
-    "Middle Order": 92
-  },
-
-  "Shreyas Iyer": {
-    "Middle Order": 94,
-    "Captain": 89
-  },
-
-  "Axar Patel": {
-    "All Rounder": 91,
-    "Spinner": 88
-  },
-
-  "Bhuvneshwar Kumar": {
-    "Pacer": 91
-  },
-
-  "Arshdeep Singh": {
-    "Pacer": 89
-  },
-
-  "Deepak Chahar": {
-    "Pacer": 88
-  },
-
-  "Avesh Khan": {
-    "Pacer": 84
-  },
-
-  "Harshal Patel": {
-    "Pacer": 87
-  },
-
-  "Washington Sundar": {
-    "All Rounder": 86,
-    "Spinner": 85
+    "rarity": "common",
+    "Captain": 22,
+    "WK": 0,
+    "Top": 81,
+    "Middle": 89,
+    "All Rounder": 10,
+    "Finisher": 75,
+    "Pacer": 0,
+    "Spinner": 6,
+    "Fielder": 82
   },
 
   "Sai Sudharsan": {
-    "Top Batsman": 90
+    "rarity": "common",
+    "Captain": 12,
+    "WK": 0,
+    "Top": 90,
+    "Middle": 78,
+    "All Rounder": 0,
+    "Finisher": 56,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 76
   },
 
-  "Heinrich Klaasen": {
-    "WK": 96,
-    "Finisher": 94
+  "Yashasvi Jaiswal": {
+    "rarity": "rare",
+    "Captain": 8,
+    "WK": 0,
+    "Top": 95,
+    "Middle": 76,
+    "All Rounder": 0,
+    "Finisher": 62,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 80
+  },
+
+  "Sanju Samson": {
+    "rarity": "rare",
+    "Captain": 82,
+    "WK": 94,
+    "Top": 86,
+    "Middle": 92,
+    "All Rounder": 2,
+    "Finisher": 84,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 86
+  },
+
+  "Ishan Kishan": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 88,
+    "Top": 84,
+    "Middle": 78,
+    "All Rounder": 0,
+    "Finisher": 70,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 78
+  },
+
+  "Rahul Tewatia": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 54,
+    "Middle": 76,
+    "All Rounder": 84,
+    "Finisher": 92,
+    "Pacer": 12,
+    "Spinner": 68,
+    "Fielder": 82
+  },
+
+  "Washington Sundar": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 36,
+    "Middle": 68,
+    "All Rounder": 86,
+    "Finisher": 56,
+    "Pacer": 10,
+    "Spinner": 90,
+    "Fielder": 80
+  },
+
+  "Axar Patel": {
+    "rarity": "rare",
+    "Captain": 64,
+    "WK": 0,
+    "Top": 38,
+    "Middle": 78,
+    "All Rounder": 92,
+    "Finisher": 74,
+    "Pacer": 8,
+    "Spinner": 91,
+    "Fielder": 88
+  },
+
+  "Yuzvendra Chahal": {
+    "rarity": "rare",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 1,
+    "Middle": 2,
+    "All Rounder": 12,
+    "Finisher": 1,
+    "Pacer": 0,
+    "Spinner": 97,
+    "Fielder": 72
+  },
+
+  "Kuldeep Yadav": {
+    "rarity": "rare",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 1,
+    "Middle": 2,
+    "All Rounder": 16,
+    "Finisher": 2,
+    "Pacer": 0,
+    "Spinner": 95,
+    "Fielder": 76
+  },
+
+  "Mohammed Shami": {
+    "rarity": "rare",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 1,
+    "Middle": 2,
+    "All Rounder": 10,
+    "Finisher": 2,
+    "Pacer": 95,
+    "Spinner": 0,
+    "Fielder": 74
+  },
+
+  "T Natarajan": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 1,
+    "Middle": 1,
+    "All Rounder": 18,
+    "Finisher": 2,
+    "Pacer": 92,
+    "Spinner": 0,
+    "Fielder": 69
+  },
+
+  "Harshal Patel": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 1,
+    "Middle": 4,
+    "All Rounder": 34,
+    "Finisher": 12,
+    "Pacer": 88,
+    "Spinner": 0,
+    "Fielder": 72
+  },
+
+  "Bhuvneshwar Kumar": {
+    "rarity": "rare",
+    "Captain": 18,
+    "WK": 0,
+    "Top": 2,
+    "Middle": 4,
+    "All Rounder": 42,
+    "Finisher": 10,
+    "Pacer": 94,
+    "Spinner": 0,
+    "Fielder": 82
+  },
+
+  "Mitchell Starc": {
+    "rarity": "rare",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 1,
+    "Middle": 2,
+    "All Rounder": 22,
+    "Finisher": 6,
+    "Pacer": 96,
+    "Spinner": 0,
+    "Fielder": 79
+  },
+
+  "Pat Cummins": {
+    "rarity": "rare",
+    "Captain": 88,
+    "WK": 0,
+    "Top": 18,
+    "Middle": 42,
+    "All Rounder": 84,
+    "Finisher": 62,
+    "Pacer": 91,
+    "Spinner": 0,
+    "Fielder": 86
+  },
+
+  "Nitish Rana": {
+    "rarity": "common",
+    "Captain": 40,
+    "WK": 0,
+    "Top": 76,
+    "Middle": 84,
+    "All Rounder": 16,
+    "Finisher": 68,
+    "Pacer": 0,
+    "Spinner": 20,
+    "Fielder": 78
+  },
+
+  "Venkatesh Iyer": {
+    "rarity": "common",
+    "Captain": 24,
+    "WK": 0,
+    "Top": 84,
+    "Middle": 76,
+    "All Rounder": 74,
+    "Finisher": 62,
+    "Pacer": 42,
+    "Spinner": 0,
+    "Fielder": 80
+  },
+
+  "Riyan Parag": {
+    "rarity": "common",
+    "Captain": 12,
+    "WK": 0,
+    "Top": 62,
+    "Middle": 82,
+    "All Rounder": 78,
+    "Finisher": 74,
+    "Pacer": 18,
+    "Spinner": 52,
+    "Fielder": 84
+  },
+
+  "Abhishek Sharma": {
+    "rarity": "rare",
+    "Captain": 8,
+    "WK": 0,
+    "Top": 92,
+    "Middle": 78,
+    "All Rounder": 82,
+    "Finisher": 68,
+    "Pacer": 0,
+    "Spinner": 58,
+    "Fielder": 81
+  },
+
+  "David Warner": {
+    "rarity": "legend",
+    "Captain": 90,
+    "WK": 0,
+    "Top": 99,
+    "Middle": 84,
+    "All Rounder": 4,
+    "Finisher": 78,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 90
+  },
+
+  "Shane Watson": {
+    "rarity": "legend",
+    "Captain": 70,
+    "WK": 0,
+    "Top": 88,
+    "Middle": 82,
+    "All Rounder": 98,
+    "Finisher": 90,
+    "Pacer": 82,
+    "Spinner": 24,
+    "Fielder": 87
+  },
+
+  "Kieron Pollard": {
+    "rarity": "legend",
+    "Captain": 58,
+    "WK": 0,
+    "Top": 44,
+    "Middle": 86,
+    "All Rounder": 96,
+    "Finisher": 99,
+    "Pacer": 58,
+    "Spinner": 0,
+    "Fielder": 96
+  },
+
+  "Dwayne Bravo": {
+    "rarity": "legend",
+    "Captain": 42,
+    "WK": 0,
+    "Top": 28,
+    "Middle": 74,
+    "All Rounder": 97,
+    "Finisher": 90,
+    "Pacer": 88,
+    "Spinner": 12,
+    "Fielder": 92
+  },
+
+  "Lasith Malinga": {
+    "rarity": "legend",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 1,
+    "Middle": 1,
+    "All Rounder": 8,
+    "Finisher": 1,
+    "Pacer": 99,
+    "Spinner": 0,
+    "Fielder": 82
+  },
+
+  "Amit Mishra": {
+    "rarity": "rare",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 2,
+    "Middle": 4,
+    "All Rounder": 28,
+    "Finisher": 6,
+    "Pacer": 0,
+    "Spinner": 95,
+    "Fielder": 76
+  },
+
+  "Piyush Chawla": {
+    "rarity": "rare",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 4,
+    "Middle": 8,
+    "All Rounder": 36,
+    "Finisher": 10,
+    "Pacer": 0,
+    "Spinner": 92,
+    "Fielder": 78
+  },
+
+  "Robin Uthappa": {
+    "rarity": "rare",
+    "Captain": 22,
+    "WK": 88,
+    "Top": 90,
+    "Middle": 82,
+    "All Rounder": 2,
+    "Finisher": 70,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 80
+  },
+
+  "Gautam Gambhir": {
+    "rarity": "legend",
+    "Captain": 98,
+    "WK": 0,
+    "Top": 94,
+    "Middle": 80,
+    "All Rounder": 2,
+    "Finisher": 62,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 84
+  },
+
+  "Yusuf Pathan": {
+    "rarity": "legend",
+    "Captain": 8,
+    "WK": 0,
+    "Top": 58,
+    "Middle": 84,
+    "All Rounder": 92,
+    "Finisher": 96,
+    "Pacer": 22,
+    "Spinner": 74,
+    "Fielder": 86
+  },
+
+  "Irfan Pathan": {
+    "rarity": "rare",
+    "Captain": 18,
+    "WK": 0,
+    "Top": 42,
+    "Middle": 70,
+    "All Rounder": 90,
+    "Finisher": 68,
+    "Pacer": 84,
+    "Spinner": 0,
+    "Fielder": 85
+  },
+
+  "Suresh Raina": {
+    "rarity": "legend",
+    "Captain": 72,
+    "WK": 0,
+    "Top": 92,
+    "Middle": 95,
+    "All Rounder": 52,
+    "Finisher": 88,
+    "Pacer": 0,
+    "Spinner": 38,
+    "Fielder": 96
+  },
+
+  "Sachin Tendulkar": {
+    "rarity": "legend",
+    "Captain": 68,
+    "WK": 0,
+    "Top": 99,
+    "Middle": 88,
+    "All Rounder": 18,
+    "Finisher": 70,
+    "Pacer": 0,
+    "Spinner": 42,
+    "Fielder": 86
+  },
+
+  "Virender Sehwag": {
+    "rarity": "legend",
+    "Captain": 62,
+    "WK": 0,
+    "Top": 98,
+    "Middle": 84,
+    "All Rounder": 12,
+    "Finisher": 92,
+    "Pacer": 0,
+    "Spinner": 14,
+    "Fielder": 78
+  },
+
+  "Shikhar Dhawan": {
+    "rarity": "legend",
+    "Captain": 44,
+    "WK": 0,
+    "Top": 97,
+    "Middle": 82,
+    "All Rounder": 2,
+    "Finisher": 62,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 84
+  },
+
+  "Ambati Rayudu": {
+    "rarity": "rare",
+    "Captain": 18,
+    "WK": 72,
+    "Top": 84,
+    "Middle": 90,
+    "All Rounder": 6,
+    "Finisher": 82,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 81
+  },
+
+  "Faf du Plessis": {
+    "rarity": "rare",
+    "Captain": 84,
+    "WK": 0,
+    "Top": 94,
+    "Middle": 82,
+    "All Rounder": 2,
+    "Finisher": 70,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 97
+  },
+
+  "Dinesh Karthik": {
+    "rarity": "rare",
+    "Captain": 66,
+    "WK": 94,
+    "Top": 70,
+    "Middle": 84,
+    "All Rounder": 0,
+    "Finisher": 92,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 84
+  },
+
+  "Ravichandran Ashwin": {
+    "rarity": "rare",
+    "Captain": 76,
+    "WK": 0,
+    "Top": 8,
+    "Middle": 24,
+    "All Rounder": 78,
+    "Finisher": 28,
+    "Pacer": 0,
+    "Spinner": 94,
+    "Fielder": 82
+  },
+
+  "Trent Boult": {
+    "rarity": "rare",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 1,
+    "Middle": 1,
+    "All Rounder": 18,
+    "Finisher": 4,
+    "Pacer": 94,
+    "Spinner": 0,
+    "Fielder": 80
+  },
+
+  "Deepak Chahar": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 4,
+    "Middle": 10,
+    "All Rounder": 58,
+    "Finisher": 24,
+    "Pacer": 88,
+    "Spinner": 0,
+    "Fielder": 79
+  },
+
+  "Ruturaj Gaikwad": {
+    "rarity": "rare",
+    "Captain": 74,
+    "WK": 0,
+    "Top": 95,
+    "Middle": 76,
+    "All Rounder": 2,
+    "Finisher": 64,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 84
   },
 
   "Quinton de Kock": {
+    "rarity": "rare",
+    "Captain": 24,
     "WK": 95,
-    "Top Batsman": 93
+    "Top": 92,
+    "Middle": 80,
+    "All Rounder": 0,
+    "Finisher": 72,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 84
+  },
+
+  "Nicholas Pooran": {
+    "rarity": "rare",
+    "Captain": 0,
+    "WK": 88,
+    "Top": 62,
+    "Middle": 90,
+    "All Rounder": 0,
+    "Finisher": 97,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 78
+  },
+
+  "Heinrich Klaasen": {
+    "rarity": "rare",
+    "Captain": 0,
+    "WK": 92,
+    "Top": 58,
+    "Middle": 91,
+    "All Rounder": 0,
+    "Finisher": 98,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 79
+  },
+  
+  "Manish Pandey": {
+    "rarity": "common",
+    "Captain": 12,
+    "WK": 0,
+    "Top": 82,
+    "Middle": 78,
+    "All Rounder": 4,
+    "Finisher": 62,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 80
+  },
+
+  "Rahul Tripathi": {
+    "rarity": "common",
+    "Captain": 8,
+    "WK": 0,
+    "Top": 84,
+    "Middle": 82,
+    "All Rounder": 2,
+    "Finisher": 70,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 78
+  },
+
+  "Aiden Markram": {
+    "rarity": "rare",
+    "Captain": 74,
+    "WK": 0,
+    "Top": 82,
+    "Middle": 86,
+    "All Rounder": 42,
+    "Finisher": 72,
+    "Pacer": 0,
+    "Spinner": 38,
+    "Fielder": 84
+  },
+
+  "Rahmanullah Gurbaz": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 84,
+    "Top": 82,
+    "Middle": 66,
+    "All Rounder": 0,
+    "Finisher": 58,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 72
+  },
+
+  "Devdutt Padikkal": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 84,
+    "Middle": 72,
+    "All Rounder": 0,
+    "Finisher": 52,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 74
+  },
+
+  "Prithvi Shaw": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 88,
+    "Middle": 68,
+    "All Rounder": 0,
+    "Finisher": 58,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 68
+  },
+
+  "Mayank Agarwal": {
+    "rarity": "common",
+    "Captain": 48,
+    "WK": 0,
+    "Top": 86,
+    "Middle": 74,
+    "All Rounder": 0,
+    "Finisher": 56,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 76
+  },
+
+  "Shivam Dube": {
+    "rarity": "rare",
+    "Captain": 6,
+    "WK": 0,
+    "Top": 52,
+    "Middle": 84,
+    "All Rounder": 82,
+    "Finisher": 88,
+    "Pacer": 36,
+    "Spinner": 0,
+    "Fielder": 78
+  },
+
+  "Moeen Ali": {
+    "rarity": "rare",
+    "Captain": 18,
+    "WK": 0,
+    "Top": 72,
+    "Middle": 84,
+    "All Rounder": 90,
+    "Finisher": 74,
+    "Pacer": 0,
+    "Spinner": 82,
+    "Fielder": 84
+  },
+
+  "Sam Curran": {
+    "rarity": "rare",
+    "Captain": 62,
+    "WK": 0,
+    "Top": 48,
+    "Middle": 72,
+    "All Rounder": 90,
+    "Finisher": 78,
+    "Pacer": 84,
+    "Spinner": 0,
+    "Fielder": 82
   },
 
   "Marcus Stoinis": {
-    "All Rounder": 90,
-    "Finisher": 89
+    "rarity": "rare",
+    "Captain": 12,
+    "WK": 0,
+    "Top": 68,
+    "Middle": 84,
+    "All Rounder": 88,
+    "Finisher": 86,
+    "Pacer": 62,
+    "Spinner": 0,
+    "Fielder": 84
   },
 
-  "Cameron Green": {
-    "All Rounder": 92
+  "Glenn Maxwell": {
+    "rarity": "legend",
+    "Captain": 42,
+    "WK": 0,
+    "Top": 72,
+    "Middle": 96,
+    "All Rounder": 92,
+    "Finisher": 94,
+    "Pacer": 0,
+    "Spinner": 68,
+    "Fielder": 94
+  },
+
+  "Rahul Chahar": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 1,
+    "Middle": 2,
+    "All Rounder": 22,
+    "Finisher": 4,
+    "Pacer": 0,
+    "Spinner": 84,
+    "Fielder": 74
+  },
+
+  "Varun Chakravarthy": {
+    "rarity": "rare",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 1,
+    "Middle": 2,
+    "All Rounder": 18,
+    "Finisher": 4,
+    "Pacer": 0,
+    "Spinner": 94,
+    "Fielder": 78
+  },
+
+  "Noor Ahmad": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 1,
+    "Middle": 2,
+    "All Rounder": 14,
+    "Finisher": 4,
+    "Pacer": 0,
+    "Spinner": 88,
+    "Fielder": 72
+  },
+
+  "Kagiso Rabada": {
+    "rarity": "rare",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 1,
+    "Middle": 2,
+    "All Rounder": 18,
+    "Finisher": 4,
+    "Pacer": 95,
+    "Spinner": 0,
+    "Fielder": 80
+  },
+
+  "Arshdeep Singh": {
+    "rarity": "rare",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 1,
+    "Middle": 2,
+    "All Rounder": 16,
+    "Finisher": 4,
+    "Pacer": 91,
+    "Spinner": 0,
+    "Fielder": 78
+  },
+
+  "Avesh Khan": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 1,
+    "Middle": 2,
+    "All Rounder": 12,
+    "Finisher": 4,
+    "Pacer": 86,
+    "Spinner": 0,
+    "Fielder": 72
+  },
+
+  "Mukesh Kumar": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 1,
+    "Middle": 2,
+    "All Rounder": 10,
+    "Finisher": 2,
+    "Pacer": 82,
+    "Spinner": 0,
+    "Fielder": 70
+  },
+
+  "Umesh Yadav": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 2,
+    "Middle": 4,
+    "All Rounder": 18,
+    "Finisher": 8,
+    "Pacer": 88,
+    "Spinner": 0,
+    "Fielder": 74
+  },
+
+  "Krunal Pandya": {
+    "rarity": "rare",
+    "Captain": 42,
+    "WK": 0,
+    "Top": 44,
+    "Middle": 74,
+    "All Rounder": 90,
+    "Finisher": 72,
+    "Pacer": 22,
+    "Spinner": 84,
+    "Fielder": 86
+  },
+
+  "Rachin Ravindra": {
+    "rarity": "common",
+    "Captain": 4,
+    "WK": 0,
+    "Top": 76,
+    "Middle": 72,
+    "All Rounder": 74,
+    "Finisher": 58,
+    "Pacer": 0,
+    "Spinner": 62,
+    "Fielder": 80
+  },
+
+  "Harshit Rana": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 2,
+    "Middle": 6,
+    "All Rounder": 28,
+    "Finisher": 12,
+    "Pacer": 84,
+    "Spinner": 0,
+    "Fielder": 76
+  },
+
+  "Abdul Samad": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 42,
+    "Middle": 74,
+    "All Rounder": 18,
+    "Finisher": 84,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 72
+  },
+
+  "Ashutosh Sharma": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 38,
+    "Middle": 72,
+    "All Rounder": 12,
+    "Finisher": 86,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 74
+  },
+
+  "Ajinkya Rahane": {
+    "rarity": "rare",
+    "Captain": 72,
+    "WK": 0,
+    "Top": 90,
+    "Middle": 78,
+    "All Rounder": 2,
+    "Finisher": 58,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 84
+  },
+
+  "Murali Vijay": {
+    "rarity": "common",
+    "Captain": 8,
+    "WK": 0,
+    "Top": 88,
+    "Middle": 68,
+    "All Rounder": 2,
+    "Finisher": 48,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 76
+  },
+
+  "Parthiv Patel": {
+    "rarity": "common",
+    "Captain": 12,
+    "WK": 88,
+    "Top": 82,
+    "Middle": 62,
+    "All Rounder": 0,
+    "Finisher": 44,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 78
+  },
+
+  "Wriddhiman Saha": {
+    "rarity": "common",
+    "Captain": 18,
+    "WK": 92,
+    "Top": 78,
+    "Middle": 66,
+    "All Rounder": 0,
+    "Finisher": 48,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 84
+  },
+
+  "Jonny Bairstow": {
+    "rarity": "rare",
+    "Captain": 0,
+    "WK": 90,
+    "Top": 92,
+    "Middle": 78,
+    "All Rounder": 0,
+    "Finisher": 74,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 80
   },
 
   "Devon Conway": {
-    "Top Batsman": 91,
-    "WK": 87
+    "rarity": "rare",
+    "Captain": 0,
+    "WK": 84,
+    "Top": 91,
+    "Middle": 82,
+    "All Rounder": 0,
+    "Finisher": 62,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 82
+  },
+
+  "Rahul Dravid": {
+    "rarity": "legend",
+    "Captain": 82,
+    "WK": 74,
+    "Top": 90,
+    "Middle": 84,
+    "All Rounder": 0,
+    "Finisher": 58,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 88
+  },
+
+  "Adam Gilchrist": {
+    "rarity": "legend",
+    "Captain": 94,
+    "WK": 98,
+    "Top": 98,
+    "Middle": 78,
+    "All Rounder": 0,
+    "Finisher": 84,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 86
+  },
+
+  "Shaun Marsh": {
+    "rarity": "rare",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 92,
+    "Middle": 78,
+    "All Rounder": 0,
+    "Finisher": 64,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 80
+  },
+
+  "Michael Hussey": {
+    "rarity": "legend",
+    "Captain": 54,
+    "WK": 0,
+    "Top": 94,
+    "Middle": 88,
+    "All Rounder": 0,
+    "Finisher": 72,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 90
+  },
+
+  "Brendon McCullum": {
+    "rarity": "legend",
+    "Captain": 74,
+    "WK": 94,
+    "Top": 96,
+    "Middle": 82,
+    "All Rounder": 2,
+    "Finisher": 88,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 84
+  },
+
+  "Chris Lynn": {
+    "rarity": "rare",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 94,
+    "Middle": 72,
+    "All Rounder": 0,
+    "Finisher": 78,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 74
+  },
+
+  "Eoin Morgan": {
+    "rarity": "rare",
+    "Captain": 86,
+    "WK": 0,
+    "Top": 62,
+    "Middle": 82,
+    "All Rounder": 0,
+    "Finisher": 76,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 84
+  },
+
+  "Nitish Kumar Reddy": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 68,
+    "Middle": 80,
+    "All Rounder": 82,
+    "Finisher": 72,
+    "Pacer": 42,
+    "Spinner": 0,
+    "Fielder": 82
+  },
+
+  "Shahbaz Ahmed": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 34,
+    "Middle": 68,
+    "All Rounder": 78,
+    "Finisher": 58,
+    "Pacer": 0,
+    "Spinner": 76,
+    "Fielder": 80
+  },
+
+  "Kedar Jadhav": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 22,
+    "Top": 54,
+    "Middle": 80,
+    "All Rounder": 52,
+    "Finisher": 74,
+    "Pacer": 0,
+    "Spinner": 42,
+    "Fielder": 76
+  },
+
+  "JP Duminy": {
+    "rarity": "rare",
+    "Captain": 38,
+    "WK": 0,
+    "Top": 74,
+    "Middle": 86,
+    "All Rounder": 82,
+    "Finisher": 78,
+    "Pacer": 0,
+    "Spinner": 48,
+    "Fielder": 88
+  },
+
+  "Liam Livingstone": {
+    "rarity": "rare",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 76,
+    "Middle": 88,
+    "All Rounder": 86,
+    "Finisher": 90,
+    "Pacer": 18,
+    "Spinner": 58,
+    "Fielder": 86
+  },
+
+  "Tim David": {
+    "rarity": "rare",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 38,
+    "Middle": 76,
+    "All Rounder": 8,
+    "Finisher": 96,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 82
+  },
+
+  "Dewald Brevis": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 78,
+    "Middle": 74,
+    "All Rounder": 12,
+    "Finisher": 68,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 80
+  },
+
+  "Anrich Nortje": {
+    "rarity": "rare",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 1,
+    "Middle": 2,
+    "All Rounder": 18,
+    "Finisher": 2,
+    "Pacer": 94,
+    "Spinner": 0,
+    "Fielder": 78
+  },
+
+  "Mohit Sharma": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 1,
+    "Middle": 2,
+    "All Rounder": 16,
+    "Finisher": 2,
+    "Pacer": 84,
+    "Spinner": 0,
+    "Fielder": 70
+  },
+
+  "Sandeep Sharma": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 1,
+    "Middle": 2,
+    "All Rounder": 12,
+    "Finisher": 2,
+    "Pacer": 88,
+    "Spinner": 0,
+    "Fielder": 76
+  },
+
+  "Khaleel Ahmed": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 1,
+    "Middle": 2,
+    "All Rounder": 10,
+    "Finisher": 2,
+    "Pacer": 82,
+    "Spinner": 0,
+    "Fielder": 72
+  },
+
+  "Prasidh Krishna": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 1,
+    "Middle": 2,
+    "All Rounder": 8,
+    "Finisher": 2,
+    "Pacer": 86,
+    "Spinner": 0,
+    "Fielder": 74
+  },
+
+  "Shreyas Iyer": {
+    "rarity": "rare",
+    "Captain": 92,
+    "WK": 0,
+    "Top": 78,
+    "Middle": 92,
+    "All Rounder": 4,
+    "Finisher": 76,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 84
+  },
+
+  "Rahul Sharma": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 2,
+    "Middle": 4,
+    "All Rounder": 22,
+    "Finisher": 6,
+    "Pacer": 0,
+    "Spinner": 78,
+    "Fielder": 70
+  },
+
+  "Karun Nair": {
+    "rarity": "common",
+    "Captain": 8,
+    "WK": 0,
+    "Top": 78,
+    "Middle": 70,
+    "All Rounder": 0,
+    "Finisher": 52,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 74
+  },
+
+  "Robin Minz": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 72,
+    "Top": 68,
+    "Middle": 64,
+    "All Rounder": 0,
+    "Finisher": 56,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 72
+  },
+
+  "Nehal Wadhera": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 70,
+    "Middle": 82,
+    "All Rounder": 8,
+    "Finisher": 76,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 78
+  },
+
+  "Sarfaraz Khan": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 64,
+    "Middle": 78,
+    "All Rounder": 0,
+    "Finisher": 58,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 68
+  },
+
+  "Rajat Patidar": {
+    "rarity": "rare",
+    "Captain": 12,
+    "WK": 0,
+    "Top": 88,
+    "Middle": 90,
+    "All Rounder": 0,
+    "Finisher": 76,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 80
+  },
+
+  "Jitesh Sharma": {
+    "rarity": "rare",
+    "Captain": 0,
+    "WK": 86,
+    "Top": 52,
+    "Middle": 82,
+    "All Rounder": 0,
+    "Finisher": 90,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 78
+  },
+
+  "Phil Salt": {
+    "rarity": "rare",
+    "Captain": 0,
+    "WK": 88,
+    "Top": 92,
+    "Middle": 78,
+    "All Rounder": 0,
+    "Finisher": 80,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 82
+  },
+
+  "Travis Head": {
+    "rarity": "legend",
+    "Captain": 24,
+    "WK": 0,
+    "Top": 98,
+    "Middle": 86,
+    "All Rounder": 48,
+    "Finisher": 82,
+    "Pacer": 0,
+    "Spinner": 42,
+    "Fielder": 88
+  },
+
+  "Jake Fraser-McGurk": {
+    "rarity": "rare",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 94,
+    "Middle": 72,
+    "All Rounder": 0,
+    "Finisher": 78,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 76
+  },
+
+  "Shimron Hetmyer": {
+    "rarity": "rare",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 54,
+    "Middle": 84,
+    "All Rounder": 0,
+    "Finisher": 94,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 80
+  },
+
+  "David Miller": {
+    "rarity": "legend",
+    "Captain": 18,
+    "WK": 0,
+    "Top": 58,
+    "Middle": 88,
+    "All Rounder": 2,
+    "Finisher": 98,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 86
+  },
+
+  "Devdutt Padikkal": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 84,
+    "Middle": 72,
+    "All Rounder": 0,
+    "Finisher": 52,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 74
+  },
+
+  "Mandeep Singh": {
+    "rarity": "common",
+    "Captain": 4,
+    "WK": 0,
+    "Top": 72,
+    "Middle": 70,
+    "All Rounder": 0,
+    "Finisher": 56,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 76
+  },
+
+  "Manan Vohra": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 74,
+    "Middle": 62,
+    "All Rounder": 0,
+    "Finisher": 48,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 70
+  },
+
+  "Nathan Coulter-Nile": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 18,
+    "Middle": 34,
+    "All Rounder": 72,
+    "Finisher": 44,
+    "Pacer": 82,
+    "Spinner": 0,
+    "Fielder": 78
+  },
+
+  "Jason Holder": {
+    "rarity": "rare",
+    "Captain": 52,
+    "WK": 0,
+    "Top": 28,
+    "Middle": 58,
+    "All Rounder": 88,
+    "Finisher": 74,
+    "Pacer": 84,
+    "Spinner": 0,
+    "Fielder": 86
+  },
+
+  "Alzarri Joseph": {
+    "rarity": "rare",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 2,
+    "Middle": 6,
+    "All Rounder": 24,
+    "Finisher": 10,
+    "Pacer": 92,
+    "Spinner": 0,
+    "Fielder": 76
+  },
+
+  "Gerald Coetzee": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 2,
+    "Middle": 6,
+    "All Rounder": 32,
+    "Finisher": 16,
+    "Pacer": 88,
+    "Spinner": 0,
+    "Fielder": 78
+  },
+
+  "Lockie Ferguson": {
+    "rarity": "rare",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 1,
+    "Middle": 4,
+    "All Rounder": 18,
+    "Finisher": 8,
+    "Pacer": 90,
+    "Spinner": 0,
+    "Fielder": 80
+  },
+
+  "Ishant Sharma": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 1,
+    "Middle": 2,
+    "All Rounder": 12,
+    "Finisher": 2,
+    "Pacer": 82,
+    "Spinner": 0,
+    "Fielder": 74
+  },
+
+  "Mohsin Khan": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 1,
+    "Middle": 2,
+    "All Rounder": 10,
+    "Finisher": 2,
+    "Pacer": 84,
+    "Spinner": 0,
+    "Fielder": 72
+  },
+
+  "Tushar Deshpande": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 1,
+    "Middle": 2,
+    "All Rounder": 14,
+    "Finisher": 4,
+    "Pacer": 80,
+    "Spinner": 0,
+    "Fielder": 70
+  },
+
+  "Siddarth Kaul": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 1,
+    "Middle": 2,
+    "All Rounder": 12,
+    "Finisher": 2,
+    "Pacer": 78,
+    "Spinner": 0,
+    "Fielder": 68
+  },
+
+  "Yash Dayal": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 1,
+    "Middle": 2,
+    "All Rounder": 12,
+    "Finisher": 2,
+    "Pacer": 82,
+    "Spinner": 0,
+    "Fielder": 72
+  },
+
+  "Naveen-ul-Haq": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 1,
+    "Middle": 2,
+    "All Rounder": 16,
+    "Finisher": 4,
+    "Pacer": 84,
+    "Spinner": 0,
+    "Fielder": 74
+  },
+
+  "Maheesh Theekshana": {
+    "rarity": "rare",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 2,
+    "Middle": 4,
+    "All Rounder": 28,
+    "Finisher": 8,
+    "Pacer": 0,
+    "Spinner": 90,
+    "Fielder": 78
+  },
+
+  "Mahela Jayawardene": {
+    "rarity": "legend",
+    "Captain": 88,
+    "WK": 0,
+    "Top": 92,
+    "Middle": 90,
+    "All Rounder": 2,
+    "Finisher": 72,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 88
+  },
+
+  "Kane Williamson": {
+    "rarity": "rare",
+    "Captain": 92,
+    "WK": 0,
+    "Top": 88,
+    "Middle": 90,
+    "All Rounder": 4,
+    "Finisher": 68,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 86
+  },
+
+  "Rahul Tewatia": {
+    "rarity": "rare",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 54,
+    "Middle": 78,
+    "All Rounder": 86,
+    "Finisher": 94,
+    "Pacer": 12,
+    "Spinner": 70,
+    "Fielder": 84
+  },
+
+  "Kieron Pollard": {
+    "rarity": "legend",
+    "Captain": 58,
+    "WK": 0,
+    "Top": 42,
+    "Middle": 86,
+    "All Rounder": 96,
+    "Finisher": 99,
+    "Pacer": 58,
+    "Spinner": 0,
+    "Fielder": 96
+  },
+
+  "Ben Stokes": {
+    "rarity": "legend",
+    "Captain": 74,
+    "WK": 0,
+    "Top": 68,
+    "Middle": 86,
+    "All Rounder": 96,
+    "Finisher": 90,
+    "Pacer": 82,
+    "Spinner": 0,
+    "Fielder": 92
+  },
+
+  "Cameron Green": {
+    "rarity": "rare",
+    "Captain": 12,
+    "WK": 0,
+    "Top": 72,
+    "Middle": 82,
+    "All Rounder": 88,
+    "Finisher": 78,
+    "Pacer": 74,
+    "Spinner": 0,
+    "Fielder": 84
+  },
+
+  "Romario Shepherd": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 24,
+    "Middle": 62,
+    "All Rounder": 80,
+    "Finisher": 86,
+    "Pacer": 72,
+    "Spinner": 0,
+    "Fielder": 78
+  },
+
+  "Mohammad Nabi": {
+    "rarity": "rare",
+    "Captain": 28,
+    "WK": 0,
+    "Top": 38,
+    "Middle": 70,
+    "All Rounder": 88,
+    "Finisher": 72,
+    "Pacer": 18,
+    "Spinner": 86,
+    "Fielder": 82
+  },
+
+  "Rilee Rossouw": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 74,
+    "Middle": 82,
+    "All Rounder": 0,
+    "Finisher": 72,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 76
+  },
+
+  "Matthew Hayden": {
+    "rarity": "legend",
+    "Captain": 22,
+    "WK": 0,
+    "Top": 97,
+    "Middle": 78,
+    "All Rounder": 0,
+    "Finisher": 76,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 82
+  },
+
+  "Tillakaratne Dilshan": {
+    "rarity": "legend",
+    "Captain": 74,
+    "WK": 0,
+    "Top": 92,
+    "Middle": 82,
+    "All Rounder": 82,
+    "Finisher": 74,
+    "Pacer": 22,
+    "Spinner": 62,
+    "Fielder": 90
+  },
+
+  "Morne Morkel": {
+    "rarity": "rare",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 2,
+    "Middle": 4,
+    "All Rounder": 24,
+    "Finisher": 8,
+    "Pacer": 90,
+    "Spinner": 0,
+    "Fielder": 80
+  },
+
+  "Dale Steyn": {
+    "rarity": "legend",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 1,
+    "Middle": 2,
+    "All Rounder": 14,
+    "Finisher": 4,
+    "Pacer": 97,
+    "Spinner": 0,
+    "Fielder": 84
+  },
+
+  "Ashish Nehra": {
+    "rarity": "rare",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 1,
+    "Middle": 2,
+    "All Rounder": 12,
+    "Finisher": 2,
+    "Pacer": 90,
+    "Spinner": 0,
+    "Fielder": 82
+  },
+
+  "Zaheer Khan": {
+    "rarity": "legend",
+    "Captain": 78,
+    "WK": 0,
+    "Top": 2,
+    "Middle": 4,
+    "All Rounder": 32,
+    "Finisher": 12,
+    "Pacer": 94,
+    "Spinner": 0,
+    "Fielder": 88
+  },
+
+  "Harbhajan Singh": {
+    "rarity": "legend",
+    "Captain": 78,
+    "WK": 0,
+    "Top": 18,
+    "Middle": 24,
+    "All Rounder": 62,
+    "Finisher": 14,
+    "Pacer": 8,
+    "Spinner": 92,
+    "Fielder": 83
+  },
+
+  "Pragyan Ojha": {
+    "rarity": "rare",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 1,
+    "Middle": 2,
+    "All Rounder": 12,
+    "Finisher": 2,
+    "Pacer": 0,
+    "Spinner": 88,
+    "Fielder": 74
+  },
+
+  "Rahul Sharma": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 2,
+    "Middle": 4,
+    "All Rounder": 22,
+    "Finisher": 6,
+    "Pacer": 0,
+    "Spinner": 78,
+    "Fielder": 70
+  },
+
+  "S Badrinath": {
+    "rarity": "common",
+    "Captain": 8,
+    "WK": 0,
+    "Top": 68,
+    "Middle": 82,
+    "All Rounder": 4,
+    "Finisher": 58,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 78
+  },
+
+  "Subramaniam Badrinath": {
+    "rarity": "common",
+    "Captain": 8,
+    "WK": 0,
+    "Top": 68,
+    "Middle": 82,
+    "All Rounder": 4,
+    "Finisher": 58,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 78
+  },
+
+  "Paul Valthaty": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 82,
+    "Middle": 66,
+    "All Rounder": 18,
+    "Finisher": 52,
+    "Pacer": 12,
+    "Spinner": 0,
+    "Fielder": 72
+  },
+
+  "Swapnil Singh": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 18,
+    "Middle": 42,
+    "All Rounder": 72,
+    "Finisher": 44,
+    "Pacer": 0,
+    "Spinner": 76,
+    "Fielder": 74
+  },
+
+  "Riyan Parag": {
+    "rarity": "rare",
+    "Captain": 12,
+    "WK": 0,
+    "Top": 68,
+    "Middle": 84,
+    "All Rounder": 80,
+    "Finisher": 76,
+    "Pacer": 18,
+    "Spinner": 54,
+    "Fielder": 86
+  },
+
+  "Abhishek Sharma": {
+    "rarity": "rare",
+    "Captain": 8,
+    "WK": 0,
+    "Top": 94,
+    "Middle": 80,
+    "All Rounder": 84,
+    "Finisher": 70,
+    "Pacer": 0,
+    "Spinner": 62,
+    "Fielder": 82
+  },
+
+  "Aakash Chopra": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 62,
+    "Middle": 48,
+    "All Rounder": 0,
+    "Finisher": 24,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 68
+  },
+
+  "Robin Peterson": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 22,
+    "Middle": 44,
+    "All Rounder": 74,
+    "Finisher": 42,
+    "Pacer": 18,
+    "Spinner": 78,
+    "Fielder": 76
+  },
+
+  "Mitchell Johnson": {
+    "rarity": "legend",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 2,
+    "Middle": 6,
+    "All Rounder": 32,
+    "Finisher": 14,
+    "Pacer": 96,
+    "Spinner": 0,
+    "Fielder": 84
+  },
+
+  "Shaun Tait": {
+    "rarity": "rare",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 1,
+    "Middle": 2,
+    "All Rounder": 12,
+    "Finisher": 2,
+    "Pacer": 92,
+    "Spinner": 0,
+    "Fielder": 74
+  },
+
+  "RP Singh": {
+    "rarity": "rare",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 1,
+    "Middle": 2,
+    "All Rounder": 18,
+    "Finisher": 4,
+    "Pacer": 90,
+    "Spinner": 0,
+    "Fielder": 78
+  },
+
+  "Manvinder Bisla": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 82,
+    "Top": 72,
+    "Middle": 62,
+    "All Rounder": 0,
+    "Finisher": 54,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 70
+  },
+
+  "Pawan Negi": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 24,
+    "Middle": 48,
+    "All Rounder": 76,
+    "Finisher": 58,
+    "Pacer": 0,
+    "Spinner": 74,
+    "Fielder": 78
+  },
+
+  "Chris Morris": {
+    "rarity": "rare",
+    "Captain": 12,
+    "WK": 0,
+    "Top": 22,
+    "Middle": 58,
+    "All Rounder": 90,
+    "Finisher": 82,
+    "Pacer": 88,
+    "Spinner": 0,
+    "Fielder": 86
+  },
+
+  "Nathan Bracken": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 1,
+    "Middle": 2,
+    "All Rounder": 8,
+    "Finisher": 2,
+    "Pacer": 80,
+    "Spinner": 0,
+    "Fielder": 72
+  },
+
+  "Sohail Tanvir": {
+    "rarity": "rare",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 8,
+    "Middle": 18,
+    "All Rounder": 68,
+    "Finisher": 28,
+    "Pacer": 92,
+    "Spinner": 0,
+    "Fielder": 76
+  },
+
+  "Albie Morkel": {
+    "rarity": "rare",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 38,
+    "Middle": 72,
+    "All Rounder": 88,
+    "Finisher": 84,
+    "Pacer": 72,
+    "Spinner": 0,
+    "Fielder": 82
+  },
+
+  "Doug Bollinger": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 1,
+    "Middle": 2,
+    "All Rounder": 14,
+    "Finisher": 4,
+    "Pacer": 84,
+    "Spinner": 0,
+    "Fielder": 70
+  },
+
+  "Laxmipathy Balaji": {
+    "rarity": "rare",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 2,
+    "Middle": 4,
+    "All Rounder": 18,
+    "Finisher": 6,
+    "Pacer": 88,
+    "Spinner": 0,
+    "Fielder": 78
+  },
+
+  "Joginder Sharma": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 18,
+    "Middle": 34,
+    "All Rounder": 68,
+    "Finisher": 48,
+    "Pacer": 62,
+    "Spinner": 0,
+    "Fielder": 72
+  },
+
+  "Saurabh Tiwary": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 68,
+    "Middle": 74,
+    "All Rounder": 0,
+    "Finisher": 58,
+    "Pacer": 0,
+    "Spinner": 0,
+    "Fielder": 70
+  },
+
+  "Thisara Perera": {
+    "rarity": "rare",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 28,
+    "Middle": 68,
+    "All Rounder": 86,
+    "Finisher": 88,
+    "Pacer": 74,
+    "Spinner": 0,
+    "Fielder": 82
+  },
+
+  "Ashok Dinda": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 1,
+    "Middle": 2,
+    "All Rounder": 8,
+    "Finisher": 2,
+    "Pacer": 82,
+    "Spinner": 0,
+    "Fielder": 68
+  },
+
+  "Pravin Kumar": {
+    "rarity": "rare",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 8,
+    "Middle": 18,
+    "All Rounder": 42,
+    "Finisher": 18,
+    "Pacer": 90,
+    "Spinner": 0,
+    "Fielder": 78
+  },
+
+  "R Vinay Kumar": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 6,
+    "Middle": 14,
+    "All Rounder": 38,
+    "Finisher": 18,
+    "Pacer": 84,
+    "Spinner": 0,
+    "Fielder": 74
+  },
+
+  "Sreenath Aravind": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 2,
+    "Middle": 6,
+    "All Rounder": 22,
+    "Finisher": 8,
+    "Pacer": 82,
+    "Spinner": 0,
+    "Fielder": 72
+  },
+
+  "Shadab Jakati": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 1,
+    "Middle": 2,
+    "All Rounder": 18,
+    "Finisher": 4,
+    "Pacer": 0,
+    "Spinner": 78,
+    "Fielder": 70
+  },
+
+  "Murugan Ashwin": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 1,
+    "Middle": 2,
+    "All Rounder": 16,
+    "Finisher": 4,
+    "Pacer": 0,
+    "Spinner": 80,
+    "Fielder": 72
+  },
+
+  "Karn Sharma": {
+    "rarity": "common",
+    "Captain": 0,
+    "WK": 0,
+    "Top": 8,
+    "Middle": 18,
+    "All Rounder": 48,
+    "Finisher": 22,
+    "Pacer": 0,
+    "Spinner": 84,
+    "Fielder": 74
   }
 }
