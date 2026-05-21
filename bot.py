@@ -367,10 +367,10 @@ async def button_click(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
         if click_user != turn:
 
-           await query.answer(
+            await query.answer(
                 f"⏳ TURN PASSED\n\n🎯 Wait for {turn}'s turn",
-        show_alert=True
-           )
+                show_alert=True
+            )
 
             return
 
@@ -458,66 +458,80 @@ async def button_click(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     elif query.data.startswith("role_"):
 
-        chat_id = query.message.chat.id
+            chat_id = query.message.chat.id
 
-        role = query.data.replace(
+            role = query.data.replace(
             "role_",
             ""
-        )
-
-        player_name = games[chat_id][
-            "current_player"
-        ]
-
-        turn = games[chat_id]["turn"]
-
-        if games[chat_id]["teams"][turn][role] is not None:
-
-            await query.answer(
-                "❌ Role already filled",
-                show_alert=True
             )
 
-            return
+            turn = games[chat_id]["turn"]
 
-        games[chat_id]["teams"][turn][role] = player_name
+            click_user = query.from_user.first_name
 
-        if turn == games[chat_id]["player1"]:
+    if click_user != turn:
 
-            games[chat_id]["turn"] = games[
-                chat_id
-            ]["player2"]
-
-        else:
-
-            games[chat_id]["turn"] = games[
-                chat_id
-            ]["player1"]
-
-        draft_text = build_draft_text(chat_id)
-
-        text = (
-            f"{draft_text}\n\n"
-            f"✅ {player_name} added to {role}"
+        await query.answer(
+            f"⏳ Wait for {turn}'s turn",
+            show_alert=True
         )
 
-        keyboard = [
-            [
-                InlineKeyboardButton(
-                    "🎲 Draw Player",
-                    callback_data="draw_player"
-                )
-            ]
+        return
+
+    player_name = games[chat_id][
+        "current_player"
+    ]
+
+    if games[chat_id]["teams"][turn][role] is not None:
+
+        await query.answer(
+            "❌ Role already filled",
+            show_alert=True
+        )
+
+        return
+
+    games[chat_id]["teams"][turn][role] = player_name
+
+    if turn == games[chat_id]["player1"]:
+
+        games[chat_id]["turn"] = games[
+            chat_id
+        ]["player2"]
+
+    else:
+
+        games[chat_id]["turn"] = games[
+            chat_id
+        ]["player1"]
+
+    draft_text = build_draft_text(
+        chat_id
+    )
+
+    text = (
+        f"{draft_text}\n\n"
+        f"✅ {player_name} added to "
+        f"{role}"
+    )
+
+    keyboard = [
+        [
+            InlineKeyboardButton(
+                "🎲 Draw Player",
+                callback_data="draw_player"
+            )
         ]
+    ]
 
-        reply_markup = InlineKeyboardMarkup(
-            keyboard
-        )
+    reply_markup = InlineKeyboardMarkup(
+        keyboard
+    )
 
-        await query.message.edit_caption(
-            caption=text,
-            reply_markup=reply_markup
-        )
+    await query.message.edit_caption(
+        caption=text,
+        reply_markup=reply_markup
+    )
 
 
 async def player(update: Update, context: ContextTypes.DEFAULT_TYPE):
